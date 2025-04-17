@@ -58,4 +58,32 @@ footer {
       margin-left: 10px;
       
   }
+  .hamburger-menu{
+    display: none;
+  }
+  /*RESPONSIVIDADE */
+  @media(max-width: 768px) {
+.cabecalho{
+    padding: 15px 20px;
+    height: 60px;
+    font-size: 1em;
+}
+.hamburger-menu{
+    display: block;
+}
+nav{
+    display: none;
+}
+footer{
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+}
   
+
+  
+
